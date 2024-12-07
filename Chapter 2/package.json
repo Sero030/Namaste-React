@@ -1,8 +1,10 @@
 {
-  "name": "namaste-react",
+  "name": "chapter-2",
   "version": "1.0.0",
-  "description": "Learning React",
+  "description": "Namaste React Chapter 2",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -15,13 +17,12 @@
     "url": "https://github.com/Sero030/Namaste-React/issues"
   },
   "homepage": "https://github.com/Sero030/Namaste-React#readme",
-  "devDependencies": {
-    "parcel": "^2.13.2",
-    "process": "^0.11.10"
-  },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.2"
   },
   "browserLists": ["last 5 versions"]
 }

@@ -1,0 +1,33 @@
+#container{
+    background-color: #BBBFCA;
+    height: 5rem;
+    width: 100%;
+    position: relative;
+}
+#search{
+    border-radius: 1rem;
+    height : 2rem;
+    width : 30rem;
+    font-size: large;
+    padding: 0;
+    border: 1%;
+    border-color: black;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#logo{
+    height: 5rem;
+    width: 5rem;
+    display: inline-block;
+}
+#user{
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    left: 95%;
+}

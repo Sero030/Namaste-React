@@ -1,0 +1,9 @@
+#headingFromHTML{
+    color: brown;
+}
+#headingFromJS{
+    color: yellow;
+}
+#headingFromReact{
+    color: aqua;
+}
