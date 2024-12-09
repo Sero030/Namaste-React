@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "parcel": "^2.13.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "name": "chapter-6",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Sanyam Yadvendra",
+  "license": "ISC",
+  "description": ""
+}
