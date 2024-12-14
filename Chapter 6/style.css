@@ -23,13 +23,13 @@
 }
 .nav-items button:hover{
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 .logo{
     height: 7rem;
     width: 7rem;
 }
-.search-bar{
+#search-bar{
     margin: 1rem;
     padding: 1rem;
     height: 3rem;
@@ -41,9 +41,23 @@
     transition: 0.5s;
     font-size: medium;
 }
-.search-bar:hover{
+#search-bar:hover{
     cursor: text;
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+.search-btn{
+    font-size: 1rem;
+    height: 3rem;
+    width: 6rem;
+    transition: 0.5s;
+    border-radius: 0.5rem;
+    background-color: #F0F0F0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 0;
+}
+.search-btn:hover{
+    cursor: pointer;
+    transform: scale(0.95);
 }
 .card{
     margin: 0.5rem;
@@ -57,7 +71,7 @@
 .card:hover{
     background-color: #F0F0F0;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .card-img{
     width: 100%;
@@ -88,7 +102,7 @@
 }
 .footer button:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .footer-items{
     list-style: none;
@@ -100,7 +114,7 @@
 }
 .footer-items li:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .filter-btn{
     font-size: 1rem;
@@ -108,13 +122,13 @@
     padding: 0.5rem;
     transition: 0.5s;
     border-radius: 0.5rem;
-    background-color: white;
+    background-color: #f0f0f0;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     border: 0;
 }
 .filter-btn:hover{
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 #shimmer-card-container{
     display: flex;
@@ -134,7 +148,7 @@
 }
 .shimmer-btn:hover{
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 .shimmer-card{
     margin: 0.5rem;
@@ -149,5 +163,5 @@
 }
 .shimmer-card:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
